@@ -220,6 +220,7 @@ Item.addFurnaceRecipe(par1int, par2int, par3int);
 Item.addShapedRecipe(par1int, par2int, par3int, par4Scriptable, par5Scriptable);
 Item.defineArmor(par1int, par2String, par3int, par4String, par5String, par6int, par7int, par8int);
 Item.getMaxDamage(par1int);
+Item.getMaxStackSize(par1int);
 Item.getName(par1int, par2int, par3boolean);
 Item.getTextureCoords(par1int, par2int);
 Item.getUseAnimation(par1int);
@@ -259,23 +260,37 @@ Server.getPort();
 Server.joinServer(par1String, par2int);
 Server.sendChat(par1String);
 
+// can use preventDefault()
 function attackHook(attacker, victim)
+// can use preventDefault()
 function chatHook(str)
+// can use preventDefault()
 function continueDestroyBlock(x, y, z, side, progress)
+// can use preventDefault()
 function destroyBlock(x, y, z, side)
 function projectileHitEntityHook(projectile, targetEntity)
 function eatHook(hearts, saturationRatio)
 function entityAddedHook(entity)
+// can use preventDefault()
 function entityHurtHook(attacker, victim, halfhearts)
 function entityRemovedHook(entity)
+// can use preventDefault()
 function explodeHook(entity, x, y, z, power, onFire)
+// can use preventDefault()
 function serverMessageReceiveHook(str)
+// can use preventDefault()
 function deathHook(attacker, victim)
+// can use preventDefault()
+function playerAddExpHook(player, experienceAdded)
+// can use preventDefault()
+function playerExpLevelChangeHook(player, levelsAdded)
 function redstoneUpdateHook(x, y, z, newCurrent, someBooleanIDontKnow, blockId, blockData)
 function newLevel()
+// can use preventDefault()
 function startDestroyBlock(x, y, z, side)
 function projectileHitBlockHook(projectile, blockX, blockY, blockZ, side)
 function modTick()
+// can use preventDefault()
 function useItem(x, y, z, itemid, blockid, side, itemDamage, blockDamage)
 
 ChatColor.AQUA;
