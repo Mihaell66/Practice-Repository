@@ -223,6 +223,7 @@ Item.getMaxDamage(par1int);
 Item.getName(par1int, par2int, par3boolean);
 Item.getTextureCoords(par1int, par2int);
 Item.getUseAnimation(par1int);
+Item.internalNameToId(par1String);
 Item.isValidItem(par1int);
 Item.setCategory(par1int, par2int);
 Item.setEnchantType(par1int, par2int, par3int);
@@ -231,6 +232,7 @@ Item.setMaxDamage(par1int, par2int);
 Item.setProperties(par1int, par2Object);
 Item.setStackedByData(par1int, par2boolean);
 Item.setUseAnimation(par1int, par2int);
+Item.translatedNameToId(par1String);
 
 Block.defineBlock(par1int, par2String, par3Object, par4Object, par5Object, par6Object);
 Block.defineLiquidBlock(par1int, par2String, par3Object, par4Object);
@@ -264,6 +266,7 @@ function destroyBlock(x, y, z, side)
 function projectileHitEntityHook(projectile, targetEntity)
 function eatHook(hearts, saturationRatio)
 function entityAddedHook(entity)
+function entityHurtHook(attacker, victim, halfhearts)
 function entityRemovedHook(entity)
 function explodeHook(entity, x, y, z, power, onFire)
 function serverMessageReceiveHook(str)
