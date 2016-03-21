@@ -3,7 +3,7 @@
 ## Note, trailing spaces will NOT be trimmed. If you want room between the end of the string and the start of a
 ## comment on the same line, use TABs.
 ##
-##0.13.1
+##0.14.0
 
 achievement.acquireIron
 achievement.acquireIron.desc
@@ -2381,8 +2381,8 @@ selectWorld.moreWorldOptions
 selectWorld.newWorld
 selectWorld.newWorld.copyOf
 ## NOTE: "Realms" is the name of a service and doesn't get localized.
-selectWorld.realmsComingSoon# NOTE: "Realms" is the name of a service and doesn't get localized.
-selectWorld.realmsLearnMore# NOTE: "Realms" is the name of a service and doesn't get localized.
+selectWorld.realmsComingSoon
+selectWorld.learnMore
 selectWorld.recreate
 selectWorld.rename
 selectWorld.renameButton
@@ -2489,22 +2489,22 @@ skin.PvPWarriors.TundraHunter
 skin.PvPWarriors.TundraStray
 skin.PvPWarriors.TundraTamer
 
-skinpack.Festive=ホリデー スキン パック 2015
-skin.Festive.Santa=サンタクロース
-skin.Festive.FatherXmas=ファーザー クリスマス
-skin.Festive.MotherXmas=マザー クリスマス
-skin.Festive.Rudolph=トナカイ
-skin.Festive.GreenElf=おもちゃ作りの妖精
-skin.Festive.Snowsuit=モコモコ パッド
-skin.Festive.Tomte=Tomte
-skin.Festive.GingerbreadMan=美味しいジンジャーブレッド
-skin.Festive.PajamaKidSlim=ゆったりカジュアル
-skin.Festive.SkiBibsSlim=リラックス カジュアル
-skin.Festive.SweaterAlex=あったかウール
-skin.Festive.MrsClaus=ミセス サンタクロース
-skin.Festive.ParkaSteve=パーカー?
-skin.Festive.SweaterSteve=ジャンパー?
-skin.Festive.GingerbreadCreeper=ジンジャーブレッド クリーパー
+skinpack.Festive
+skin.Festive.Santa
+skin.Festive.FatherXmas
+skin.Festive.MotherXmas
+skin.Festive.Rudolph
+skin.Festive.GreenElf
+skin.Festive.Snowsuit
+skin.Festive.Tomte
+skin.Festive.GingerbreadMan
+skin.Festive.PajamaKidSlim
+skin.Festive.SkiBibsSlim
+skin.Festive.SweaterAlex
+skin.Festive.MrsClaus
+skin.Festive.ParkaSteve
+skin.Festive.SweaterSteve
+skin.Festive.GingerbreadCreeper
 
 skinpack.Redstone
 skin.Redstone.Vanguard
